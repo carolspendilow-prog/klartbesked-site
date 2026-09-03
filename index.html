@@ -14,6 +14,7 @@
 <div class="site">
 
   <header class="top">
+    <input type="checkbox" id="nav-toggle" class="nav-toggle">
     <a class="logo" href="index.html"><span>klart</span><span class="b">besked</span></a>
     <nav class="primary">
       <a class="navlink" href="index.html">Hem</a>
@@ -32,7 +33,16 @@
       <a class="navlink" href="tjanster.html">Tjänster</a>
       <a class="navlink" href="om-oss.html">Om oss</a>
     </nav>
-    <a class="btn-pill" href="mailto:carol@spendilaw.com">Kontakt</a>
+    <div class="header-actions">
+      <a class="btn-pill" href="mailto:carol@spendilaw.com">Kontakt</a>
+      <label for="nav-toggle" class="hamburger" aria-label="Meny"><span></span><span></span><span></span></label>
+    </div>
+    <div class="mobile-menu">
+      <a href="index.html">Hem</a>
+      <a href="index.html#kunskap">Kunskap</a>
+      <a href="tjanster.html">Tjänster</a>
+      <a href="om-oss.html">Om oss</a>
+    </div>
   </header>
 
   <div class="hero">
